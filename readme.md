@@ -14,5 +14,5 @@
 
 ### Removing classes from divs
 
-- `modal.classList.remove('hidden');` - Note: we do not use dots(.) while specifying the class name
+- `modal.classList.remove('hidden');` - Note: we do not use dots(.) while specifying the class name. The dot is ONLY for the selector
 - To parse multiple classes we write it like : `modal.classList.remove('hidden', 'about', 'love');`
