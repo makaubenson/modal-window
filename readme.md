@@ -20,3 +20,4 @@
 - Alternative
 - `modal.style.display = 'block';`
 - Both achieve the same goal
+- `btnCloseModal.addEventListener('click', closeModal);` is used instead of `btnCloseModal.addEventListener('click', closeModal());` - This is because, closeModal() would get executed immediately the line is reached. While what we need is that closeModal is called once a click event has been captured.
