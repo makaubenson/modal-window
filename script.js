@@ -6,5 +6,5 @@ const btnsOpenModal = document.querySelectorAll('.show-modal');
 console.log(btnsOpenModal);
 //Looping through three buttons with the same class
 for (let i = 0; i < btnsOpenModal.length; i++) {
-  console.log(btnsOpenModal[i]);
+  console.log(btnsOpenModal[i].textContent);
 }
