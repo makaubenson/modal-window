@@ -10,6 +10,12 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
   btnsOpenModal[i].addEventListener('click', function () {
     console.log('Button Clicked');
     modal.classList.remove('hidden');
+    //Alternative
+    // modal.style.display = 'block';
     overlay.classList.remove('hidden');
   });
 }
+btnCloseModal.addEventListener('click', function () {
+  modal.classList.add('hidden');
+  overlay.classList.add('hidden');
+});
