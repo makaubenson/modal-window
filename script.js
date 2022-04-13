@@ -9,5 +9,6 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
   //   console.log(btnsOpenModal[i].textContent);
   btnsOpenModal[i].addEventListener('click', function () {
     console.log('Button Clicked');
+    modal.classList.remove('hidden');
   });
 }

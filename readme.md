@@ -11,3 +11,8 @@
 ## Events Continuation
 
 - To track an event, we must attach an event handler/listener to the element
+
+### Removing classes from divs
+
+- `modal.classList.remove('hidden');` - Note: we do not use dots(.) while specifying the class name
+- To parse multiple classes we write it like : `modal.classList.remove('hidden', 'about', 'love');`
