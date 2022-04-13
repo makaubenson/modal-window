@@ -6,3 +6,8 @@
 - `console.log(btnsOpenModal);`- //Looping through three buttons with the same class
 - `for (let i = 0; i < btnsOpenModal.length; i++)`
 - `{ console.log(btnsOpenModal[i].textContent); }`
+- `btnsOpenModal` is treated as an array
+
+## Events Continuation
+
+- To track an event, we must attach an event handler/listener to the element
